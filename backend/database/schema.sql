@@ -1,0 +1,12 @@
+-- ==============================================================================
+-- Task Management REST API - Database Schema
+-- Technology: PostgreSQL
+-- ==============================================================================
+-- NOTE: Full table DDL, relationships, and constraints will be implemented
+-- in the upcoming database schema milestone.
+--
+-- Planned Entities:
+-- 1. users       - id, name, email, password_hash, created_at, updated_at
+-- 2. projects    - id, name, description, user_id, created_at, updated_at
+-- 3. tasks       - id, title, description, status, priority, due_date, project_id, user_id, created_at, updated_at
+-- ==============================================================================
